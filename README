@@ -2,3 +2,5 @@ kernel.cu : scale, new_coords
 nvdsparsebbox_Yolo.cpp : confidence threshold
 trt_utils.cpp : mish activation
 yoloPlugin : stride H,W and gridH, W
+
+** Download weights files in /cfg directory
