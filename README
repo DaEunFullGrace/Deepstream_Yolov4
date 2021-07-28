@@ -3,4 +3,5 @@ nvdsparsebbox_Yolo.cpp : confidence threshold
 trt_utils.cpp : mish activation
 yoloPlugin : stride H,W and gridH, W
 
-** Download weights files in /cfg directory
+1. Make cfg directory
+2. Download weights, cfg files in /cfg directory
