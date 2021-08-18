@@ -5,3 +5,4 @@ yoloPlugin : stride H,W and gridH, W
 
 1. cd cfg
 2. Download weights, cfg files in /cfg directory
+3. deepstream app -c <deepstream config file>
