@@ -2,7 +2,7 @@ Basic usage of deepstream_yolov4 and yolov7 is same\
 This repository supports YOLOv4-serise\
 If you want to use YOLOv7 in this respo., modify model name in the nvdsinfer_custom_impl_Yolov4/nvdsinfer_yolo_engine.cpp (but keep yolotype=yolov4)
 
-## Note
+## NOTE
 In the deepstream_yolov7, mask were set up to use 3-FPN layer with 4 anchors
 If you want to use default setting from YOLOv7 paper, change the variable "kMASKS" from nvdsparsebbox_Yolo.cpp
 
