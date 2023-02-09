@@ -9,7 +9,8 @@ If you want to use default setting from YOLOv7 paper, change the variable "kMASK
 ## How to execute 
 1. cd cfg
 2. Download weights, cfg files in /cfg directory
-3. deepstream app -c deepstream_app_config_{model_name}.txt
+3. cd ..
+4. deepstream app -c deepstream_app_config_{model_name}.txt
 
 
 ## How to customize your networks
