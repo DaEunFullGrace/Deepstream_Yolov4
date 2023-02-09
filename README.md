@@ -24,7 +24,7 @@ If you want to use default setting from YOLOv7 paper, change the variable "kMASK
 
 ## How to change deepstream config file
 ### From config_infer_primary_{model_name}.txt
-* If you want to use differnt cfg file or weight, than change "custom-network-config" and "model-file"
+* If you want to use differnt cfg file or weight, then change "custom-network-config" and "model-file"
 * To use quantization, change "network-mode"
 ### From deepstream_app_config_{model_name}.txt
 * To change input video, change "uri"
